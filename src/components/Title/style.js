@@ -1,4 +1,5 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Text, View} from "react-native"
+
 
 const styles = StyleSheet.create({
     boxTitle: {
@@ -7,11 +8,11 @@ const styles = StyleSheet.create({
         padding:10,
     },
     
-    textTitle:{
-        color:"#ff0043",
+    textTitle: {
+        color: "#aa0dff",
         fontSize:24,
-        fontWeight: "bold",
-    }
+        fontWeight:'bold',
+    },
 });
 
 export default styles

@@ -1,11 +1,11 @@
-import React from "react" 
-import { View, Text } from "react-native"
+import React from "react"
+import {View, Text} from "react-native"
 import styles from "./style"
 
-export default function Title() {
+export default function Title(){
     return(
         <View style={styles.boxTitle}>
-          <Text style={styles.textTitle}> CALCULADORA-IMC </Text>
+          <Text style={styles.textTitle}>CALCULADORA-IMC</Text>
         </View>
     );
 }

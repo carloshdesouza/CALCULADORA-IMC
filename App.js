@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Title from './src/components/Title/index'
 import Form from './src/components/Form/'
@@ -18,5 +18,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#e0e5e5',
     paddingTop:80,
     
-  },
+  }
 });
