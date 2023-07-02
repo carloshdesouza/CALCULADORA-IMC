@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
      width: "100%",     
     },
     information: {
-        fontSize: 18,
+        fontSize:18,
         color:"#aa0dff",
         fontWeight: "bold",
     },
@@ -19,6 +19,23 @@ const styles = StyleSheet.create({
      color: "#aa0dff",
      fontWeight: "bold",
     },
+    boxSharebutton:{
+        width:"100%",
+        alignItems:"center",
+        marginBottom:0,
+        paddingTop:0,
+    },
+    shared:{
+        backgroundColor:"#1877f2",
+        borderRadius:50,
+        paddingBottom:5,
+        paddingTop:5,
+    },
+    sharedText:{
+        color:"#ffffff",
+        fontWeight:"bold",
+        paddingHorizontal:30,
+    }
 });
 
 export default styles
